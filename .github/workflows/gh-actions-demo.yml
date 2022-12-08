@@ -5,5 +5,6 @@ jobs:
   Send-PR-To-LISA:
     runs-on: windows-latest
     steps:
-      - run: echo "GITHUB_HEAD_REF = ${{github.head_ref}} / GITHUB_REF = ${{github.ref}}
+      - run: echo "GITHUB_HEAD_REF = ${{github.head_ref}} / GITHUB_REF = ${{github.ref}}"
+      - run: node node_apps\\index.js fetch-pr-data id=4 repo=${{github.repository}}
 
