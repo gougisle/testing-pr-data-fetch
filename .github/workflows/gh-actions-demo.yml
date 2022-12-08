@@ -4,7 +4,7 @@ on: [pull_request]
   
 jobs:
   Explore-GitHub-Actions:
-    runs-on: self-hosted
+    runs-on: windows-latest
     steps:
       - run: echo "GITHUB_REF = ${{github.ref}} GITHUB_REPO = ${{github.repository}}"
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
