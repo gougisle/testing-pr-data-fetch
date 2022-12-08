@@ -1,9 +1,9 @@
-name: GitHub Actions Demo
+name: Send PR Data To LISA
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on: [pull_request]
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+  Send-PR-To-LISA:
+    runs-on: windows-latest
     steps:
       - run: echo "GITHUB_HEAD_REF = ${{github.head_ref}} / GITHUB_REF = ${{github.ref}}
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
