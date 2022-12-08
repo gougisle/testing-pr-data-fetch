@@ -5,6 +5,16 @@ jobs:
   Send-PR-To-LISA:
     runs-on: windows-latest
     steps:
+    
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.0
+        with:
+          node-version: "14.x"
+
+      - name: Checkout Code
+        uses: actions/checkout@v2.3.4
+        continue-on-error: false
+      
       - run: cd
       - run: dir
       - run: echo "GITHUB_HEAD_REF = ${{github.head_ref}} / GITHUB_REF = ${{github.ref}}"
