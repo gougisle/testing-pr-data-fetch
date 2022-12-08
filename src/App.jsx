@@ -34,7 +34,7 @@ function App() {
             <ul className="navbar-nav me-auto mb-2 mb-md-0">
               <li className="nav-item">
                 <button className="nav-link px-2 text-white link-button">
-                  Home
+                  Home Page
                 </button>
               </li>
               <li className="nav-item">
