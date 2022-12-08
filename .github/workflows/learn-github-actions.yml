@@ -9,5 +9,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: yarn install -g axios
+      - run: yarn global add axios
       - run: axios -v
