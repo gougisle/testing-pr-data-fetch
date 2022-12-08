@@ -6,5 +6,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: echo "GITHUB_HEAD_REF = ${{github.head_ref}} / GITHUB_REF = ${{github.ref}}"
-      - run: node C:node_apps\\index.js fetch-pr-data id=4 repo=${{github.repository}}
+      - run: node PullRequestDataFetch\\index.js fetch-pr-data id=4 repo=${{github.repository}}
 
