@@ -15,8 +15,9 @@ jobs:
         uses: actions/checkout@v2.3.4
         continue-on-error: false
       
-      - run: cd
       - run: dir
+      - run: cd PullRequestDataFetch
+      - run: dir
+      
       - run: echo "GITHUB_HEAD_REF = ${{github.head_ref}} / GITHUB_REF = ${{github.ref}}"
-      - run: node C:\\PullRequestDataFetch\\index.js fetch-pr-data id=4 repo=${{github.repository}}
 
