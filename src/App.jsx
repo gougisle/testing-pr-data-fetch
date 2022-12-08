@@ -63,7 +63,7 @@ function App() {
                   href="#"
                   className="nav-link px-2 text-white link-button"
                 >
-                  Events
+                  Events Page
                 </button>
               </li>
               <li className="nav-item">
