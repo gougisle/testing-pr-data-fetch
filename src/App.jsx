@@ -39,7 +39,7 @@ function App() {
               </li>
               <li className="nav-item">
                 <button className="nav-link px-2 text-white link-button">
-                  Friends
+                  Friends Page
                 </button>
               </li>
               <li className="nav-item">
@@ -47,7 +47,7 @@ function App() {
                   href="#"
                   className="nav-link px-2 text-white link-button"
                 >
-                  Jobs
+                  Jobs Page
                 </button>
               </li>
               <li className="nav-item">
@@ -63,7 +63,7 @@ function App() {
                   href="#"
                   className="nav-link px-2 text-white link-button"
                 >
-                  Events
+                  Events Page
                 </button>
               </li>
               <li className="nav-item">
