@@ -39,7 +39,7 @@ function App() {
               </li>
               <li className="nav-item">
                 <button className="nav-link px-2 text-white link-button">
-                  Friends Page
+                  Friends Pagekasjgdhasd
                 </button>
               </li>
               <li className="nav-item">
